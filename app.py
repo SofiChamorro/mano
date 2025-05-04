@@ -16,7 +16,7 @@ st.markdown("Esta aplicación usa un modelo entrenado en [Teachable Machine](htt
 st.caption(f"Versión de Python: {platform.python_version()}")
 
 # Imagen de portada
-st.image("OIG5.jpg", width=350, caption="Modelo entrenado en Teachable Machine")
+st.image("https://img.asmedia.epimg.net/resizer/v2/OVU7WXOSXNKQTCQQKSQ4HOU5IQ.jpg?auth=dadbc4415df04b6490883046278fb5d4e504b4be1edc614aa4fcccbbc30267fb&width=360&height=203&smart=true")
 
 # Cargar modelo
 model = load_model('keras_model.h5')
